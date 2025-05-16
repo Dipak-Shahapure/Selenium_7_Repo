@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T08:49:44 IST" name="Suite" finished-at="2025-05-14T08:50:12 IST" duration-ms="28239">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T08:49:44 IST" name="Test" finished-at="2025-05-14T08:50:12 IST" duration-ms="28239">
+      <class name="electronics.TC_DWS_020_Test">
+        <test-method is-config="true" signature="reportConfig()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:44 IST" name="reportConfig" finished-at="2025-05-14T08:49:44 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfig -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:44 IST" name="openBrowser" finished-at="2025-05-14T08:49:49 IST" duration-ms="4950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:49 IST" name="login" finished-at="2025-05-14T08:49:52 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnElectronics()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:52 IST" name="clickOnElectronics" finished-at="2025-05-14T08:49:53 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnElectronics -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:53 IST" name="logout" finished-at="2025-05-14T08:49:53 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:49:53 IST" name="closeBrowser" finished-at="2025-05-14T08:49:54 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:electronics.TC_DWS_020_Test@7dcf94f8]" started-at="2025-05-14T08:50:13 IST" name="reportBackup" finished-at="2025-05-14T08:50:13 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- electronics.TC_DWS_020_Test -->
+      <class name="computers.TC_DWS_010_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:computers.TC_DWS_010_Test@477b4cdf]" started-at="2025-05-14T08:49:54 IST" name="openBrowser" finished-at="2025-05-14T08:49:59 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:computers.TC_DWS_010_Test@477b4cdf]" started-at="2025-05-14T08:49:59 IST" name="login" finished-at="2025-05-14T08:50:01 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickonComputers()[pri:0, instance:computers.TC_DWS_010_Test@477b4cdf]" started-at="2025-05-14T08:50:01 IST" name="clickonComputers" finished-at="2025-05-14T08:50:02 IST" duration-ms="1161" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Computers Page is Not Dispalyed expected [Demo Web Shop. Comp] but found [Demo Web Shop. Computers]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Computers Page is Not Dispalyed expected [Demo Web Shop. Comp] but found [Demo Web Shop. Computers]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at computers.TC_DWS_010_Test.clickonComputers(TC_DWS_010_Test.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonComputers -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:computers.TC_DWS_010_Test@477b4cdf]" started-at="2025-05-14T08:50:03 IST" name="logout" finished-at="2025-05-14T08:50:03 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:computers.TC_DWS_010_Test@477b4cdf]" started-at="2025-05-14T08:50:03 IST" name="closeBrowser" finished-at="2025-05-14T08:50:03 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- computers.TC_DWS_010_Test -->
+      <class name="books.TC_DWS_001_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:books.TC_DWS_001_Test@77c2494c]" started-at="2025-05-14T08:50:03 IST" name="openBrowser" finished-at="2025-05-14T08:50:08 IST" duration-ms="5282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:books.TC_DWS_001_Test@77c2494c]" started-at="2025-05-14T08:50:08 IST" name="login" finished-at="2025-05-14T08:50:11 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnBooks()[pri:0, instance:books.TC_DWS_001_Test@77c2494c]" started-at="2025-05-14T08:50:11 IST" name="clickOnBooks" finished-at="2025-05-14T08:50:12 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBooks -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:books.TC_DWS_001_Test@77c2494c]" started-at="2025-05-14T08:50:12 IST" name="logout" finished-at="2025-05-14T08:50:12 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:books.TC_DWS_001_Test@77c2494c]" started-at="2025-05-14T08:50:12 IST" name="closeBrowser" finished-at="2025-05-14T08:50:12 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- books.TC_DWS_001_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
